@@ -321,7 +321,7 @@ export class StarRatingController implements ng.IComponentController, IStarRatin
     }
 
     svgVisible():boolean {
-        return this.starType === "svg";
+        return this._starType === "svg";
     }
 
     setColor() {
